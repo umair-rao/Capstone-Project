@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 25%;
+    margin-top: 2%;
+}
+
+#hamburger {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+.mobile-menu {
+    background-color: rgb(39, 42, 50);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    width: 80%;
+    opacity: 0.95;
+}
+
+.mobile-menu ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+}
+
+.mobile-menu li {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.desktop-navbar {
+    display: none;
+}
+
+#cross {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 80%;
+    margin-top: 5%;
+    background: transparent;
+    border: none;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.nav-top {
+    display: none;
+}
+
+#detail {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.program {
+    background-image: url(./images/program-bg.jpg);
+    height: 110vh;
+}
+
+#services-title {
+    color: #fff; 
+    font-family: lato, sans-serif;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#redline {
+    height: 1px;
+    width: 60px;
+    background-color: rgb(236, 82, 66);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-cards {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.card {
+    background: #eeeeee26;
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1.5fr;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #fff;
+}
+
+#program-title {
+    color: rgb(248, 81, 81);
+    text-align: center;
+}
+
+.card-images {
+    width: 50px;
+    height: 50px;
+}
+
+#view-prog-div {
+    margin-left: 50%;
+    margin-top: 10%;
+    font-size: 18px;
+}
+
+#view-program {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 786px){
+.mobile-navbar {
+    display: none;
+}
+
+.homepage {
+    height: 100vh;
+    background: rgba(0,0,0,0.85) url(./images/desktop-bg.JPG);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.description,
+#detail {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.description {
+    padding-top: 8%;
+}
+
+.nav-top {
+    display: block;
+    background-color: rgb(62, 62, 62);
+    height: 3.5vh;
+}
+
+#nav-top-list a {
+    color: #fff;
+}
+
+#nav-top-list ul {
+    margin-top: 0;
+    margin-left: 80%;
+    padding-top: 0.3%;
+}
+
+.desktop-navbar {
+    display: flex;
+    flex-direction: row;
+    height: 11.5vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.logo {
+    margin-top: 0;
+}
+
+.desktop-nav-list {
+    width: 100%;
+}
+
+.desktop-nav-list a {
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.desktop-nav-list ul {
+    margin-left: 3%;
+    margin-top: 3.5%;
+}
+
+.desktop-nav-list li {
+    display: inline;
+    list-style-type: none;
+}
+
+.program {
+    height: 60vh;
+}
+
+#services-title {
+    padding-top: 2%;
+    font-size: 30px;
+}
+
+.service-cards {
+    padding-top: 2%;
+    flex-direction: row;
+    column-gap: 35px;
+    margin-left: 14%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 180px;
+    height: 180px;
+    gap: 2px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+/* #view-prog-div {
+    margin-left: 50%;
+    margin-top: 10%;
+    font-size: 18px;
+} */
+
+
+
+}
