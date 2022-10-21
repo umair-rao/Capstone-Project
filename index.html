@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,104 +9,123 @@
     <link rel="stylesheet" href="style.css" />
     <title>Capstone Project</title>
 </head>
+
 <body>
+    <!-- Homepage section start -->
     <section class="homepage">
-    <nav class="mobile-navbar">
-    <div class="nav-logo">
-        <div id="hamburger">
-            <i class="fa fa-bars"></i>
+        <!-- Mobile Navbar -->
+        <nav class="mobile-navbar">
+            <div class="nav-logo">
+                <div id="hamburger">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img id="logo-img" src="./images/logo.png" alt="logo-image">
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-menu hide" id="mobile-menu-id">
+                <button id="cross">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+                <div class="menu-list">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#services-id">Our Services</a></li>
+                        <li><a href="#team-id">Team Members</a></li>
+                        <li><a href="#team-id">Sponser</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar Top Area -->
+        <div class="nav-top">
+            <div class="desktop-nav-list" id="nav-top-list">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="">English</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="logo">
-            <a href="index.html">
-                <img id="logo-img" src="./images/logo.png" alt="logo-image">
-            </a>
-        </div>
-    </div>
-    <div class="mobile-menu hide" id="mobile-menu-id">
-        <button id="cross">
-            <i class="fa-solid fa-x"></i>
-        </button>
-        <div class="menu-list">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#services-id">Our Services</a></li>
-            <li><a href="#team-id">Team Members</a></li>
-            <li><a href="#team-id">Sponser</a></li>
-        </ul>
-    </div>
-    </div>
-    </nav>
-    <div class="nav-top">
-        <div class="desktop-nav-list" id="nav-top-list">
-        <ul>
-            <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="">English</a></li>
-        </ul>
-        </div>
-    </div>
+        <!-- Desktop Navbar -->
         <div class="desktop-navbar">
             <div class="logo">
                 <img src="./images/logo.png" alt="logo-image">
             </div>
-        <div class="desktop-nav-list">
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#services-id">Our Services</a></li>
-                <li><a href="#team-id">Team Members</a></li>
-                <li><a href="#team-id">Sponser</a></li>
-            </ul>
+            <div class="desktop-nav-list">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#services-id">Our Services</a></li>
+                    <li><a href="#team-id">Team Members</a></li>
+                    <li><a href="#team-id">Sponser</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
         </nav>
-    <div class="description">
-        <h1>Building Sustainable Future Infrastructures</h1>
-        <p id="detail">We are well established company and has a very strong technical profile of engineering, procurement, and construction of power grid stations and transmission lines.</p>
-        <h3>2022.10.17(Mon) ~ 21 (Fri)</h3>
-        <p>@ Expo Center Lahore, Pakistan</p>
-    </div>
+        <div class="description">
+            <h1>Building Sustainable Future Infrastructures</h1>
+            <p id="detail">We are well established company and has a very strong technical profile of engineering,
+                procurement, and construction of power grid stations and transmission lines.</p>
+            <h3>2022.10.17(Mon) ~ 21 (Fri)</h3>
+            <p>@ Expo Center Lahore, Pakistan</p>
+        </div>
     </section>
+
+    <!-- Homepage section Ends -->
+
+    <!-- Program Section start -->
     <section id="services-id" class="program">
         <h2 id="services-title">Our Services</h2>
         <div id="redline"></div>
         <div class="service-cards">
-        <div class="card">
-            <img src="./images/civil infrastructure.png" class="card-images" alt="">
-            <h3 id="program-title">Civil Infrastructure</h3>
-            <p>The development of civil infrastructure is always our key priority.</p>
+            <div class="card">
+                <img src="./images/civil infrastructure.png" class="card-images" alt="">
+                <h3 id="program-title">Civil Infrastructure</h3>
+                <p>The development of civil infrastructure is always our key priority.</p>
+            </div>
+            <div class="card">
+                <img src="./images/renewable-energy-icon.webp" class="card-images" alt="">
+                <h3 id="program-title">Renewable Energy</h3>
+                <p>Building sustainable infrastructures is part of our vision.</p>
+            </div>
+            <div class="card">
+                <img src="./images/trading-icon.png" class="card-images" alt="">
+                <h3 id="program-title">Trading Activities</h3>
+                <p>Along with EPC solutions, we are also providing consultancy services to international firms.</p>
+            </div>
+            <div class="card">
+                <img src="./images/erection of equipment.png" class="card-images" alt="">
+                <h3 id="program-title">Erection of Equipment </h3>
+                <p>The process of assembling all components of equipments.</p>
+            </div>
+            <div class="card">
+                <img src="./images/commisoing icon.png" class="card-images" alt="">
+                <h3 id="program-title">Testing and Commissioning</h3>
+                <p>Testing and commissioning of installed equipment so that they are safe and meet design requirement.
+                </p>
+            </div>
         </div>
-        <div class="card">
-            <img src="./images/renewable-energy-icon.webp" class="card-images" alt="">
-            <h3 id="program-title">Renewable Energy</h3>
-            <p>Building sustainable infrastructures is part of our vision.</p>
+        <div id="view-prog-div">
+            <a id="view-program" href="">View full program &gt;</a>
         </div>
-        <div class="card">
-            <img src="./images/trading-icon.png" class="card-images" alt="">
-            <h3 id="program-title">Trading Activities</h3>
-            <p>Along with EPC solutions, we are also providing consultancy services to international firms.</p>
-        </div>
-        <div class="card">
-            <img src="./images/erection of equipment.png" class="card-images" alt="">
-            <h3 id="program-title">Erection of Equipment </h3>
-            <p>The process of assembling all components of equipments.</p>
-        </div>
-        <div class="card">
-            <img src="./images/commisoing icon.png" class="card-images" alt="">
-            <h3 id="program-title">Testing and Commissioning</h3>
-            <p>Testing and commissioning of installed equipment so that they are safe and meet design requirement.</p>
-        </div>
-    </div>
-    <div id="view-prog-div">
-        <a id="view-program" href="">View full program &gt;</a>
-    </div>
     </section>
 
-    <section id="team-id" class="team-members" >
+    <!-- Program Section Ends -->
+
+    <!-- Team member Section Starts (Data is Dynamically fetched from JS file.)-->
+
+    <section id="team-id" class="team-members">
         <h2 id="team-title">Team Members</h2>
         <div id="redline"></div>
         <div id="team-members-id"></div>
     </section>
+    <!-- Team Section Ends Here -->
+
+    <!-- Partners Sections starts -->
+
     <section>
         <div class="partners">
             <h2 id="partners-title">Our Partners</h2>
@@ -118,6 +138,10 @@
             </ul>
         </div>
     </section>
-<script src="script.js"></script>   
+
+    <!-- Partners Sections Ends -->
+
+    <script src="script.js"></script>
 </body>
+
 </html>
