@@ -133,7 +133,7 @@
 }
 
 #view-prog-div {
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: 10%;
     font-size: 18px;
 }
@@ -212,6 +212,77 @@
     padding: 5%;
 }
 
+/* About Section CSS */
+
+.aboutpage {
+    height: 100vh;
+    background: rgba(0,0,0,0.6) url(./images/about-bg.JPG);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.about-heading {
+    color: #ec5242;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.about-description {
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(255, 255, 255,0.8);
+    text-align: center;
+ 
+}
+
+#about-dec {
+    padding-top: 1.5%;
+}
+
+.contact {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact a {
+    color: #ec5242;
+}
+
+.previous-projects {
+
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.projects-heading {
+    font-size: 35px;
+    color: #393b3f;
+    text-align: center;
+
+}
+
+#about-project {
+    font-size: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.project-img {
+    width: 318px;
+    height: 159px;
+    margin-left: 6%;
+}
+
+.project-detail {
+    color: #393b3f;
+    text-align: center;
+}
 
 /* Deskptop Version Starts */
 
@@ -348,6 +419,60 @@
 
 .partners li {
     padding: 2%;
+}
+
+    /* About Page CSS */
+.aboutpage {
+    height: 100vh;
+    background: rgba(0,0,0,0.85) url(./images/about-bg.JPG);
+}
+
+.about-heading {
+    font-size: 30px;
+    margin-top: 6%;
+}
+
+.about-description {
+    font-size: 20px;
+    width: 910px;
+    height: 120px;
+    margin-left: 25.5%;
+    margin-top: 3%;
+}
+
+#about-dec {
+    padding-top: 1.5%;
+}
+
+.contact {
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.previous-projects {
+    height: 70vh;
+}
+
+.projects-heading {
+    font-size: 40px;
+    margin-top: 3%;
+}
+
+#about-project {
+    font-size: 25px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.project-img {
+    width: 537px;
+    height: 359px;
 }
 
 }
