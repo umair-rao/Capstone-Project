@@ -284,7 +284,7 @@
   }
 
   .homepage {
-    height: 100vh;
+    height: 100%;
     background: rgba(0, 0, 0, 0.85) url(./images/desktop-bg.JPG);
     background-size: cover;
     background-blend-mode: darken;
@@ -306,6 +306,7 @@
     background-color: rgb(62, 62, 62);
     height: 3.5%;
     width: 100%;
+    margin-bottom: 0;
   }
 
   .desktop-nav-list a {
@@ -321,6 +322,7 @@
     padding: 0;
     margin-right: 0;
     overflow-wrap: inherit;
+
   }
 
   #nav-top-list a {
@@ -343,7 +345,7 @@
   .desktop-navbar {
     display: flex;
     flex-direction: row;
-    height: 11vh;
+    height: 5%;
     width: 100%;
     background-color: #fff;
   }
@@ -362,7 +364,11 @@
   }
 
   .program {
+    display: flex;
+    flex-direction: column;
     height: 60vh;
+    width: 100%;
+    align-items: center;
   }
 
   #services-title {
@@ -372,10 +378,12 @@
   }
 
   .service-cards {
-    padding-top: 2%;
-    flex-direction: row;
-    column-gap: 35px;
-    margin-left: 14%;
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    width: 80%;
+    margin-top: 50px;
+    gap: 0px;
+    padding: 0;
   }
 
   .card {
@@ -394,7 +402,7 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     height: 80%;
-    margin-left: 18%;
+    margin-left: 8%;
     margin-top: 4%;
   }
 
@@ -405,7 +413,17 @@
 
   .member-detail {
     column-gap: 40px;
-    width: 60%;
+    width: 80%;
+  }
+
+  .member-data {
+    width: 200px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #member-desc {
+    width: 200px;
   }
 
   .partners {
@@ -445,7 +463,7 @@
 
   /* About Page CSS */
   .aboutpage {
-    height: 100vh;
+    height: 100%;
     background: rgba(0, 0, 0, 0.85) url(./images/about-bg.JPG);
   }
 
@@ -456,8 +474,8 @@
 
   .about-description {
     font-size: 20px;
-    width: 910px;
-    height: 120px;
+    width: 50%;
+    height: auto;
     margin-left: 25.5%;
     margin-top: 3%;
   }
@@ -472,7 +490,8 @@
   }
 
   .previous-projects {
-    height: 70vh;
+    height: 70%;
+    width: 100%;
   }
 
   .projects-heading {
@@ -490,11 +509,12 @@
     width: 70%;
     margin-left: 19%;
     margin-top: 5%;
+    column-gap: 10px;
   }
 
   .project-img {
-    width: 537px;
-    height: 359px;
+    width: 100%;
+    height: 80%;
   }
 
   .footer-about {
