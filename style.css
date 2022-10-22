@@ -95,7 +95,7 @@
 
 .program {
   background-image: url(./images/program-bg.jpg);
-  height: 110vh;
+  height: 110%;
 }
 
 #services-title {
@@ -145,7 +145,7 @@
 
 #view-prog-div {
   margin-left: 45%;
-  margin-top: 10%;
+  margin-top: 8%;
   font-size: 18px;
 }
 
@@ -192,30 +192,6 @@
 #member-desc {
   color: rgb(111, 112, 116);
   margin-top: 2%;
-}
-
-.partners {
-  background-color: #393b3f;
-  height: 180px;
-}
-
-#partners-title {
-  color: #fff;
-  font-family: lato, sans-serif;
-  padding-top: 7%;
-  text-align: center;
-}
-
-.partners ul {
-  list-style-type: none;
-  text-align: center;
-  padding-left: 0;
-  padding-top: 6%;
-}
-
-.partners li {
-  display: inline;
-  padding: 5%;
 }
 
 /* About Section CSS */
@@ -283,6 +259,14 @@
   text-align: center;
 }
 
+.partners {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+
 /* About Section CSS ends */
 
 /* Mobile CSS ends here */
@@ -315,8 +299,10 @@
   .nav-top {
     display: block;
     background-color: rgb(62, 62, 62);
-    height: 3.5vh;
+    height: 3.5%;
+    width: 100%;
   }
+
 
   .desktop-nav-list a {
     color: rgb(136, 136, 136);
@@ -326,8 +312,11 @@
   }
 
   .desktop-nav-list ul {
-    margin-left: 3%;
+    margin-left: 30%;
     margin-top: 3.5%;
+    padding: 0;
+    margin-right: 0;
+    overflow-wrap: inherit;
   }
 
   #nav-top-list a {
@@ -340,7 +329,7 @@
 
   #nav-top-list ul {
     margin-top: 0;
-    margin-left: 80%;
+    margin-left: 75%;
     padding-top: 0.3%;
   }
 
@@ -397,7 +386,7 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
-    height: 80vh;
+    height: 80%;
     margin-left: 18%;
     margin-top: 4%;
   }
@@ -413,15 +402,44 @@
   }
 
   .partners {
-    height: 220px;
+    display: block;
+    background-color: #393b3f;
+    height: 150px;
   }
-
+  
   #partners-title {
+    color: #fff;
+    font-family: lato, sans-serif;
     padding-top: 1%;
+    text-align: center;
+  }
+  
+  .partners ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .partners li {
+    display: inline;
+    padding: 2%;
   }
 
-  .partners li {
-    padding: 2%;
+  .footer {
+    display: block;
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-logo {
+    margin-left: 30%;
+    margin-top: 0.2%;
+  }
+
+  .footer-description {
+    margin-left: 5%;
+    font-size: 25px;
+    margin-top: 1%;
   }
 
   /* About Page CSS */
@@ -476,6 +494,27 @@
   .project-img {
     width: 537px;
     height: 359px;
+  }
+
+  .footer-about {
+    display: block;
+    background-color: #393b3f;
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-logo-about {
+    margin-left: 30%;
+    margin-top: 0.2%;
+  }
+
+  .footer-description-about {
+    color: #fff;
+    margin-left: 5%;
+    font-size: 25px;
+    margin-top: 1%;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   /* About Section CSS ends */
