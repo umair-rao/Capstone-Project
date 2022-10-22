@@ -322,7 +322,6 @@
     padding: 0;
     margin-right: 0;
     overflow-wrap: inherit;
-
   }
 
   #nav-top-list a {
@@ -382,7 +381,7 @@
     grid-template-columns: repeat(5, 0.5fr);
     width: 80%;
     margin-top: 50px;
-    gap: 0px;
+    gap: 0;
     padding: 0;
   }
 
