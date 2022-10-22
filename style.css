@@ -493,7 +493,7 @@
   }
 
   .footer-about {
-    display: block flex;
+    display: flex;
     background-color: #393b3f;
     width: 100%;
   }
