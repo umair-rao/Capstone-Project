@@ -36,7 +36,7 @@
   color: rgb(255, 255, 255, 0.7);
   font-size: 30px;
 }
-  
+
 .contact a {
   color: #ec5242;
 }
@@ -318,6 +318,17 @@
     height: 3.5vh;
   }
 
+  .desktop-nav-list a {
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .desktop-nav-list ul {
+    margin-left: 3%;
+    margin-top: 3.5%;
+  }
   #nav-top-list a {
     color: #fff;
   }
@@ -342,18 +353,6 @@
 
   .desktop-nav-list {
     width: 100%;
-  }
-
-  .desktop-nav-list a {
-    color: rgb(136, 136, 136);
-    text-decoration: none;
-    font-size: 20px;
-    padding: 15px;
-  }
-
-  .desktop-nav-list ul {
-    margin-left: 3%;
-    margin-top: 3.5%;
   }
 
   .desktop-nav-list li {
