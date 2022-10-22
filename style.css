@@ -303,7 +303,6 @@
     width: 100%;
   }
 
-
   .desktop-nav-list a {
     color: rgb(136, 136, 136);
     text-decoration: none;
@@ -325,6 +324,9 @@
 
   .partners ul {
     padding-top: 1%;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
   }
 
   #nav-top-list ul {
@@ -406,20 +408,14 @@
     background-color: #393b3f;
     height: 150px;
   }
-  
+
   #partners-title {
     color: #fff;
     font-family: lato, sans-serif;
     padding-top: 1%;
     text-align: center;
   }
-  
-  .partners ul {
-    list-style-type: none;
-    text-align: center;
-    padding-left: 0;
-  }
-  
+
   .partners li {
     display: inline;
     padding: 2%;
@@ -497,9 +493,8 @@
   }
 
   .footer-about {
-    display: block;
+    display: block flex;
     background-color: #393b3f;
-    display: flex;
     width: 100%;
   }
 
