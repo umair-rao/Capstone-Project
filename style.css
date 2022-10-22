@@ -267,7 +267,8 @@
   display: none;
 }
 
-.footer {
+.footer,
+.footer-about {
   display: none;
 }
 
