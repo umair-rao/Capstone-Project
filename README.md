@@ -46,4 +46,4 @@ Give a ⭐️ if you like this project!
 Cindy Shin the author of the original design [https://www.behance.net/gallery/29845175/CC-Global-Summit-2015]
 
 ##Licence
- - This project is [MIT](./license) licensed.
+ - This project is [mit](./license) licensed.
