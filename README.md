@@ -2,8 +2,6 @@
 
 > Microverse first capstone project for first module. Project has mobile and desktop version project which have files of html, css and javascript as well as correcting using linters. Code is deployed on Github pages.
 
-# Website Link
-- 
 
 ## Built With
 
