@@ -329,8 +329,13 @@
     margin-left: 3%;
     margin-top: 3.5%;
   }
+
   #nav-top-list a {
     color: #fff;
+  }
+
+  .partners ul {
+    padding-top: 1%;
   }
 
   #nav-top-list ul {
@@ -415,15 +420,11 @@
     padding-top: 1%;
   }
 
-  .partners ul {
-    padding-top: 1%;
-  }
-
   .partners li {
     padding: 2%;
   }
 
-    /* About Page CSS */
+  /* About Page CSS */
   .aboutpage {
     height: 100vh;
     background: rgba(0, 0, 0, 0.85) url(./images/about-bg.JPG);
@@ -441,7 +442,7 @@
     margin-left: 25.5%;
     margin-top: 3%;
   }
-  
+
   #about-dec {
     padding-top: 1.5%;
   }
@@ -454,7 +455,7 @@
   .previous-projects {
     height: 70vh;
   }
-  
+
   .projects-heading {
     font-size: 40px;
     margin-top: 3%;
@@ -476,6 +477,8 @@
     width: 537px;
     height: 359px;
   }
-    /* About Section CSS ends */
-    /* Desktop CSS ends here */
+
+  /* About Section CSS ends */
+
+  /* Desktop CSS ends here */
 }
