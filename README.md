@@ -2,6 +2,10 @@
 
 > Microverse first capstone project for first module. Project has mobile and desktop version project which have files of html, css and javascript as well as correcting using linters. Code is deployed on Github pages.
 
+#Website link
+https://umair-rao.github.io/Capstone-Project/
+
+
 ## Built With
 
 - html
@@ -41,4 +45,4 @@ Give a ⭐️ if you like this project!
 Cindy Shin the author of the original design [https://www.behance.net/gallery/29845175/CC-Global-Summit-2015]
 
 ##Licence
- - This project is [MIT](./license) licensed.
+ - This project is [mit](./license) licensed.
